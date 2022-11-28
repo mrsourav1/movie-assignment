@@ -1,0 +1,47 @@
+.main{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    /* background-color: rgb(191, 248, 248); */
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 100%;
+    /* margin-left: 80px;
+    margin-right: 80px; */
+    /* max-width: 100%; */
+    border: 1px solid rgb(2, 2, 27); 
+    background-color: rgb(244, 133, 133);
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.right_side{
+    text-align: center;
+    width: 60%;
+}
+
+.name{
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+
+.left_side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+
+    border-radius: 10%;
+    background-color: azure;
+}
+
